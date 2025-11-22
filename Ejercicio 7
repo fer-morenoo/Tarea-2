@@ -11,7 +11,7 @@ float ida, dias , total , km = 0.23 ;
 printf("dist ida: ");
 scanf("%f",&ida);
 
-printf("dias: ");
+printf("dias: ") ;
 scanf("%f",&dias);
 
  float dist = ida*2 ;
