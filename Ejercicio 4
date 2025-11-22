@@ -12,7 +12,7 @@ scanf("%f",&inv);
 
 printf("tasa: "); scanf("%f",&t);
 
-i = inv*t/100 ;
+i = inv*t/100;
  tot = inv + i ;
 
 printf("interes %.2f\n",i);
