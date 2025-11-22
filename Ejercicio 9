@@ -4,7 +4,7 @@ Tarea2 Ejercicio 9 */
 int main(){
  int N,i, res;
  printf("Numero para tabla: ");
- scanf("%d",&N);
+ scanf("%d",&N) ;
 
  for(i=1;i<=10;i++){
     res = N * i;
