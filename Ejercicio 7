@@ -1,0 +1,28 @@
+/* Fernanda Arely Moreno De León
+Tarea 2 Ejercicio 7 */
+
+
+#include <stdio.h>
+
+int main(){
+
+float ida, dias , total , km = 0.23 ;
+
+printf("dist ida: ");
+scanf("%f",&ida);
+
+printf("dias: ");
+scanf("%f",&dias);
+
+ float dist = ida*2 ;
+
+ total = dist * km ;
+
+ if( dias>7 && dist>800 ){
+    total = total - (total*0.30) ;
+ }
+
+ printf("precio= %.2f", total);
+
+return 0;
+}
