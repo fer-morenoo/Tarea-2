@@ -2,12 +2,11 @@
 Tarea 2 Ejercicio 15*/
 
 
-
 #include <stdio.h>
 
 int main(){
 int arr[100];
-int n,i;
+ int n,i;
 int pos=0,neg=0,cer=0;
 
 printf("tamaño: ");
@@ -15,10 +14,10 @@ scanf("%d",&n);
 
 for(i=0;i<n;i++){
    printf("dato: ");
-   scanf("%d",&arr[i]);
+ scanf("%d",&arr[i]);
 
    if(arr[i]>0) pos++;
-   else if(arr[i]<0) neg++;
+ else if(arr[i]<0) neg++;
    else cer++ ;
 }
 
