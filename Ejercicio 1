@@ -1,0 +1,21 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 1 */
+
+#include <stdio.h>
+
+int main(){
+
+int a,b ; int s, r , m;
+
+printf("dame 2 numeros ");
+scanf("%d %d",&a,&b);
+
+s=a+b;
+ r=a-b ;
+m = a*b;
+
+printf("suma:%d\n",s); printf("resta:%d\n",r);
+ printf("multi:%d\n",m);
+
+return 0;
+}
