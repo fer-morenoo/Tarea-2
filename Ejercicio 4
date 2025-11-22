@@ -1,0 +1,22 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 4 */
+
+#include <stdio.h>
+
+int main(){
+
+float inv,t, i, tot ;
+
+printf("cantidad: ");
+scanf("%f",&inv);
+
+printf("tasa: "); scanf("%f",&t);
+
+i = inv*t/100 ;
+ tot = inv + i ;
+
+printf("interes %.2f\n",i);
+printf("total %.2f",tot);
+
+return 0;
+}
