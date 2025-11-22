@@ -1,0 +1,23 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 5 */
+
+#include <stdio.h>
+
+int main(){
+
+float monto   , total ;
+
+printf("compra: ");
+scanf("%f",&monto);
+
+ if( monto>2500 ){
+total = monto - monto*0.08 ;
+ }
+ else{
+total = monto ;
+ }
+
+printf("pagar %.2f", total);
+
+return 0 ;
+}
