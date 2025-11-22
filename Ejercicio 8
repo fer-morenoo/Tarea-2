@@ -18,7 +18,7 @@ else if(a!=0 && b%a==0){
     printf("%d es divisible entre %d", b, a);
 }
 else{
- printf("ninguno divide al otro") ;
+ printf("no son divisbles") ;
 }
 
 return 0;
