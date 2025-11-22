@@ -1,0 +1,21 @@
+/*Fernanda Arely Moreno De León
+Tarea 2 Ejercicio 16 */
+
+#include <stdio.h>
+
+int main(){
+int par[100];
+ int i;
+int num=0 ;
+
+for(i=0;i<100;i++){
+  par[i] = num ;
+ num = num + 2 ;
+}
+
+for(i=0; i<100;i++){
+ printf("%d ",par[i]) ;
+}
+
+ return 0 ;
+}
