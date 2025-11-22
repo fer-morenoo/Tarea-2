@@ -1,0 +1,28 @@
+/* Fernanda Arely Moreno De León
+Tarea 2 Ejercicio 14 */
+
+
+#include <stdio.h>
+
+int main(){
+
+int a[100], n , x ;
+int i , c=0 ;
+
+printf("tamaño?: ");
+scanf("%d",&n);
+
+for(i=0;i<n;i++){
+ printf("d %d:",i);
+ scanf("%d",&a[i]);
+}
+printf("buscar: "); scanf("%d",&x);
+
+for(i=0;i<n;i++){
+ if(a[i]==x){ c++; }
+}
+
+printf("aparece %d veces",c);
+
+return 0;
+}
