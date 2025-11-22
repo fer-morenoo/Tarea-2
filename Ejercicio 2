@@ -6,7 +6,7 @@ Tarea2 Ejercicio 2 */
 int main(){
 float r, a , c ;
 
-printf("radio? ");
+printf("radio? ") ;
 scanf("%f",&r);
 
 a = 3.1416*r*r; 
