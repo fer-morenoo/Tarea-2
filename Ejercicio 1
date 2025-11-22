@@ -7,7 +7,7 @@ int main(){
 
 int a,b ; int s, r , m;
 
-printf("dame 2 numeros ");
+printf("dame 2 numeros ") ;
 scanf("%d %d",&a,&b);
 
 s=a+b;
