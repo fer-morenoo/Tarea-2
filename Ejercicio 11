@@ -1,0 +1,18 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 11 */
+
+#include <stdio.h>
+int main(){
+
+ int s=0;
+ int i;
+
+ for(i=10;i<=50;i++){
+   if(i%2==0)
+      s = s + i ;
+ }
+
+ printf("suma=%d",s);
+
+return 0;
+}
