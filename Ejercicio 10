@@ -1,0 +1,25 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 10 */
+
+#include <stdio.h>
+
+int main(){
+
+int i,x;
+int pos=0,neg=0,cer=0 ;
+
+for(i=0;i<100;i++){
+ printf("num %d: ",i+1);  
+ scanf("%d",&x);
+
+ if(x>0) pos++;
+ else if(x<0) neg++;
+ else cer++;
+}
+
+printf("pos %d\n",pos);
+ printf("neg %d\n",neg);
+printf("ceros %d",cer);
+
+return 0;
+}
