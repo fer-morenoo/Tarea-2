@@ -8,7 +8,7 @@ float d;
  float p;
 
 printf("dolares: ");
-scanf("%f",&d);
+ scanf("%f",&d);
 
 p = d*11.96 ;
 
