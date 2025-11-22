@@ -1,0 +1,25 @@
+/* Fernanda Arely Moreno De León
+Tarea 2 Ejercicio 8 */
+
+
+#include <stdio.h>
+
+int main(){
+
+int a,b;
+
+printf("dos nums: ");
+scanf("%d %d",&a,&b) ;
+
+if(b!=0 && a%b==0){
+   printf("%d es divisible entre %d", a, b);
+}
+else if(a!=0 && b%a==0){
+    printf("%d es divisible entre %d", b, a);
+}
+else{
+ printf("ninguno divide al otro") ;
+}
+
+return 0;
+}
