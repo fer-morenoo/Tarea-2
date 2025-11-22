@@ -1,0 +1,18 @@
+/* Fernanda Arely Moreno De León
+Tarea2 Ejercicio 3 */
+
+#include <stdio.h>
+
+int main(){
+float d;
+ float p;
+
+printf("dolares: ");
+scanf("%f",&d);
+
+p = d*11.96 ;
+
+printf("pesos= %.2f",p);
+
+return 0;
+}
