@@ -6,7 +6,7 @@ Tarea2 Ejercicio 13 */
 int main(){
  int arr[100] ;
 int n,i;
-int sum=0 ;
+int sum=0;
 
 printf("cuantos? "); scanf("%d",&n);
 
